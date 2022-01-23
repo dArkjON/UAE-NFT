@@ -17,7 +17,5 @@ for tag in divTag:
     for tag in tdTags:
       stamps.append (tag.text + " : " + str(ssTags.text) + " || " + str(aaTags.text))
 
-print (stamps[0])
-print (stamps[1])
-print (stamps[2])
-print (stamps[3])
+for x in range(4):
+  print (stamps[x])
